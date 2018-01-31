@@ -16,7 +16,7 @@ else
     exit 1
 fi
 
-echo "extracting imagess ...."
+echo "extracting images ...."
 
 # extract images
 find . -type f  -name '*.gz' -exec gzip -d "{}" \;
